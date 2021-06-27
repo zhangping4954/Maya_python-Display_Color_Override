@@ -48,7 +48,7 @@ class DisplayColorOverride(object):
             判断输入的color_index数值>= 大于等于MAX_OVERRIDE_COLORS（32）或者 color_index数值< 0 小于零
             则提示一个错误 并返回 False
             """
-            om.MGlobal.displayError("输入的数值超出范围,（请输入0-31）")
+            om.MGlobal.displayError(" 输入的数值超出范围,（请输入0-31）")
             return False
 
         # 获取先择正确的shape_nodes列表 赋值给shapes 变量
@@ -57,7 +57,7 @@ class DisplayColorOverride(object):
             """
             判断shapes是否为空的 如果为空 则返回一个错误提示用户 选择模型
             """
-            om.MGlobal.displayError("请选择模型")
+            om.MGlobal.displayError(" 请选择模型 ")
             return False
 
         for shape in shapes:
