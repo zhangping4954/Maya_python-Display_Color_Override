@@ -19,9 +19,19 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
   <property name="styleSheet">
    <string notr="true">QPushButton{
 	border-radius:10px;
+}
+
+QLabel{
+	
+	
+	
+	color: rgb(80, 189, 148);
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -68,7 +78,7 @@
      </spacer>
     </item>
     <item row="3" column="5">
-     <widget class="QPushButton" name="color_150">
+     <widget class="QPushButton" name="color_12">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -109,7 +119,7 @@
      </spacer>
     </item>
     <item row="4" column="1">
-     <widget class="QPushButton" name="color_160">
+     <widget class="QPushButton" name="color_13">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -137,7 +147,7 @@
      </widget>
     </item>
     <item row="3" column="4">
-     <widget class="QPushButton" name="color_900">
+     <widget class="QPushButton" name="color_11">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -351,7 +361,7 @@
      </widget>
     </item>
     <item row="3" column="2">
-     <widget class="QPushButton" name="color_700">
+     <widget class="QPushButton" name="color_9">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -379,7 +389,7 @@
      </widget>
     </item>
     <item row="3" column="3">
-     <widget class="QPushButton" name="color_800">
+     <widget class="QPushButton" name="color_10">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -407,7 +417,7 @@
      </widget>
     </item>
     <item row="5" column="2">
-     <widget class="QPushButton" name="color_170">
+     <widget class="QPushButton" name="color_19">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -435,7 +445,7 @@
      </widget>
     </item>
     <item row="4" column="4">
-     <widget class="QPushButton" name="color_140">
+     <widget class="QPushButton" name="color_16">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -463,7 +473,7 @@
      </widget>
     </item>
     <item row="5" column="3">
-     <widget class="QPushButton" name="color_180">
+     <widget class="QPushButton" name="color_20">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -491,7 +501,7 @@
      </widget>
     </item>
     <item row="4" column="5">
-     <widget class="QPushButton" name="color_500">
+     <widget class="QPushButton" name="color_17">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -519,7 +529,7 @@
      </widget>
     </item>
     <item row="4" column="2">
-     <widget class="QPushButton" name="color_120">
+     <widget class="QPushButton" name="color_14">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -560,7 +570,7 @@
      </spacer>
     </item>
     <item row="4" column="3">
-     <widget class="QPushButton" name="color_130">
+     <widget class="QPushButton" name="color_15">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -588,7 +598,7 @@
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QPushButton" name="color_380">
+     <widget class="QPushButton" name="color_18">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -616,7 +626,7 @@
      </widget>
     </item>
     <item row="6" column="3">
-     <widget class="QPushButton" name="color_401">
+     <widget class="QPushButton" name="color_25">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -644,7 +654,7 @@
      </widget>
     </item>
     <item row="5" column="5">
-     <widget class="QPushButton" name="color_540">
+     <widget class="QPushButton" name="color_22">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -672,7 +682,7 @@
      </widget>
     </item>
     <item row="6" column="5">
-     <widget class="QPushButton" name="color_550">
+     <widget class="QPushButton" name="color_27">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -700,7 +710,7 @@
      </widget>
     </item>
     <item row="7" column="2">
-     <widget class="QPushButton" name="color_420">
+     <widget class="QPushButton" name="color_29">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -728,7 +738,7 @@
      </widget>
     </item>
     <item row="6" column="2">
-     <widget class="QPushButton" name="color_390">
+     <widget class="QPushButton" name="color_24">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -756,7 +766,7 @@
      </widget>
     </item>
     <item row="7" column="4">
-     <widget class="QPushButton" name="color_3300">
+     <widget class="QPushButton" name="color_31">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -784,7 +794,7 @@
      </widget>
     </item>
     <item row="6" column="1">
-     <widget class="QPushButton" name="color_430">
+     <widget class="QPushButton" name="color_23">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -812,7 +822,7 @@
      </widget>
     </item>
     <item row="7" column="3">
-     <widget class="QPushButton" name="color_410">
+     <widget class="QPushButton" name="color_30">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -840,7 +850,7 @@
      </widget>
     </item>
     <item row="6" column="4">
-     <widget class="QPushButton" name="color_370">
+     <widget class="QPushButton" name="color_26">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -868,7 +878,7 @@
      </widget>
     </item>
     <item row="7" column="1">
-     <widget class="QPushButton" name="color_360">
+     <widget class="QPushButton" name="color_28">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -896,7 +906,7 @@
      </widget>
     </item>
     <item row="7" column="5">
-     <widget class="QPushButton" name="color_3200">
+     <widget class="QPushButton" name="color_32">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -924,7 +934,7 @@
      </widget>
     </item>
     <item row="5" column="4">
-     <widget class="QPushButton" name="color_310">
+     <widget class="QPushButton" name="color_21">
       <property name="minimumSize">
        <size>
         <width>40</width>

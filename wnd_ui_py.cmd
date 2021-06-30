@@ -1,0 +1,1 @@
+"D:\Program Files\Maya2018\bin\mayapy.exe" "D:\Program Files\Maya2018\bin\pyside2-uic" Maya_PY_Display_Color_Override_ui.ui > Maya_PY_Display_Color_Override_ui.py
