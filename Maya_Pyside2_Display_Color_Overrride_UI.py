@@ -5,8 +5,10 @@ from PySide2.QtGui import QIcon
 import maya.cmds as cm
 import maya.OpenMayaUI as Mul
 import shiboken2
+import maya_path_env
 import Maya_PY_Display_Color_Override_ui
 reload(Maya_PY_Display_Color_Override_ui)
+reload(maya_path_env)
 
 _win = "Override_Color_Window"
 
@@ -30,7 +32,8 @@ class OverrideColor(Maya_PY_Display_Color_Override_ui.Ui_MainWindow,QtWidgets.QM
         super(OverrideColor,self).__init__(parent)
         self.setupUi(self)
         self.setObjectName(_win)
-        self.color_1.setIcon(QIcon("D:/Maya_python_Display_Color_Override/icon/color_1.png"))
+        self.color_1.setIcon(QIcon(maya_path_env.MAYA_ICON_NAME_PATH))
+        self.color_2.setIcon(QIcon(maya_path_env.MAYA_ICON_NAME_PATH))
 
 
 def main():
