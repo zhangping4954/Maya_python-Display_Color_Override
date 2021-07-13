@@ -57,7 +57,7 @@ class DisplayColorOverride(object):
             """
             判断shapes是否为空的 如果为空 则返回一个错误提示用户 选择模型
             """
-            om.MGlobal.displayError(" 请选择模型 ")
+            om.MGlobal.displayError(" Select the model")
             return False
 
         for shape in shapes:
@@ -79,7 +79,7 @@ class DisplayColorOverride(object):
             """
             判断shapes是否为空的 如果为空 则返回一个错误提示用户 选择模型
             """
-            om.MGlobal.displayError("请选择模型")
+            om.MGlobal.displayError("Select the model")
             return False
 
         for shape in shapes:

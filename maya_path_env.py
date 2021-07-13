@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import os
+import os, inspect
 
-MAYA_ICON_PATH = os.path.dirname(os.path.realpath('color_1.png'))
-MAYA_ICON_NAME_PATH = MAYA_ICON_PATH + "\icon" + "\color_1.png"
+MAYA_ICON_PATH = os.path.dirname(inspect.getfile(inspect.currentframe()))
+MAYA_ICON_NAME_PATH = os.path.join(MAYA_ICON_PATH, 'icon')
+
 
 
 

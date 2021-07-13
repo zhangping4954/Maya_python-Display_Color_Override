@@ -23,9 +23,7 @@
    <enum>Qt::LeftToRight</enum>
   </property>
   <property name="styleSheet">
-   <string notr="true">QPushButton{
-	border-radius:10px;
-}
+   <string notr="true">
 
 QLabel{
 	
@@ -33,6 +31,8 @@ QLabel{
 	
 	color: rgb(80, 189, 148);
 }
+
+
 
 
 
@@ -54,7 +54,7 @@ QLabel{
      </spacer>
     </item>
     <item row="3" column="5">
-     <widget class="QPushButton" name="color_12">
+     <widget class="QPushButton" name="color_11">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -85,7 +85,7 @@ QLabel{
      </widget>
     </item>
     <item row="2" column="4">
-     <widget class="QPushButton" name="color_6">
+     <widget class="QPushButton" name="color_5">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -116,7 +116,7 @@ QLabel{
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QPushButton" name="color_13">
+     <widget class="QPushButton" name="color_12">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -147,7 +147,7 @@ QLabel{
      </widget>
     </item>
     <item row="2" column="2">
-     <widget class="QPushButton" name="color_4">
+     <widget class="QPushButton" name="color_3">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -177,24 +177,6 @@ QLabel{
       </property>
      </widget>
     </item>
-    <item row="1" column="1" colspan="3">
-     <widget class="QLabel" name="label">
-      <property name="sizeIncrement">
-       <size>
-        <width>0</width>
-        <height>0</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Overrides color</string>
-      </property>
-     </widget>
-    </item>
     <item row="0" column="5">
      <spacer name="verticalSpacer_2">
       <property name="orientation">
@@ -209,7 +191,7 @@ QLabel{
      </spacer>
     </item>
     <item row="2" column="3">
-     <widget class="QPushButton" name="color_5">
+     <widget class="QPushButton" name="color_4">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -240,7 +222,7 @@ QLabel{
      </widget>
     </item>
     <item row="3" column="4">
-     <widget class="QPushButton" name="color_11">
+     <widget class="QPushButton" name="color_10">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -271,7 +253,7 @@ QLabel{
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QPushButton" name="color_3">
+     <widget class="QPushButton" name="color_2">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -302,7 +284,7 @@ QLabel{
      </widget>
     </item>
     <item row="2" column="5">
-     <widget class="QPushButton" name="color_7">
+     <widget class="QPushButton" name="color_6">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -333,7 +315,7 @@ QLabel{
      </widget>
     </item>
     <item row="4" column="2">
-     <widget class="QPushButton" name="color_14">
+     <widget class="QPushButton" name="color_13">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -364,7 +346,7 @@ QLabel{
      </widget>
     </item>
     <item row="5" column="1">
-     <widget class="QPushButton" name="color_18">
+     <widget class="QPushButton" name="color_17">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -395,7 +377,7 @@ QLabel{
      </widget>
     </item>
     <item row="5" column="3">
-     <widget class="QPushButton" name="color_20">
+     <widget class="QPushButton" name="color_19">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -426,7 +408,7 @@ QLabel{
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QPushButton" name="color_8">
+     <widget class="QPushButton" name="color_7">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -457,7 +439,7 @@ QLabel{
      </widget>
     </item>
     <item row="6" column="2">
-     <widget class="QPushButton" name="color_24">
+     <widget class="QPushButton" name="color_23">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -488,7 +470,7 @@ QLabel{
      </widget>
     </item>
     <item row="3" column="2">
-     <widget class="QPushButton" name="color_9">
+     <widget class="QPushButton" name="color_8">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -519,7 +501,7 @@ QLabel{
      </widget>
     </item>
     <item row="4" column="5">
-     <widget class="QPushButton" name="color_17">
+     <widget class="QPushButton" name="color_16">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -550,7 +532,7 @@ QLabel{
      </widget>
     </item>
     <item row="6" column="1">
-     <widget class="QPushButton" name="color_23">
+     <widget class="QPushButton" name="color_22">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -581,7 +563,7 @@ QLabel{
      </widget>
     </item>
     <item row="5" column="5">
-     <widget class="QPushButton" name="color_22">
+     <widget class="QPushButton" name="color_21">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -612,7 +594,7 @@ QLabel{
      </widget>
     </item>
     <item row="4" column="4">
-     <widget class="QPushButton" name="color_16">
+     <widget class="QPushButton" name="color_15">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -656,7 +638,7 @@ QLabel{
      </spacer>
     </item>
     <item row="7" column="2">
-     <widget class="QPushButton" name="color_29">
+     <widget class="QPushButton" name="color_28">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -687,7 +669,7 @@ QLabel{
      </widget>
     </item>
     <item row="6" column="3">
-     <widget class="QPushButton" name="color_25">
+     <widget class="QPushButton" name="color_24">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -718,7 +700,7 @@ QLabel{
      </widget>
     </item>
     <item row="4" column="3">
-     <widget class="QPushButton" name="color_15">
+     <widget class="QPushButton" name="color_14">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -749,7 +731,7 @@ QLabel{
      </widget>
     </item>
     <item row="7" column="4">
-     <widget class="QPushButton" name="color_31">
+     <widget class="QPushButton" name="color_30">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -780,7 +762,7 @@ QLabel{
      </widget>
     </item>
     <item row="7" column="3">
-     <widget class="QPushButton" name="color_30">
+     <widget class="QPushButton" name="color_29">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -811,7 +793,7 @@ QLabel{
      </widget>
     </item>
     <item row="3" column="3">
-     <widget class="QPushButton" name="color_10">
+     <widget class="QPushButton" name="color_9">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -842,7 +824,7 @@ QLabel{
      </widget>
     </item>
     <item row="6" column="5">
-     <widget class="QPushButton" name="color_27">
+     <widget class="QPushButton" name="color_26">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -873,7 +855,7 @@ QLabel{
      </widget>
     </item>
     <item row="6" column="4">
-     <widget class="QPushButton" name="color_26">
+     <widget class="QPushButton" name="color_25">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -904,7 +886,7 @@ QLabel{
      </widget>
     </item>
     <item row="5" column="2">
-     <widget class="QPushButton" name="color_19">
+     <widget class="QPushButton" name="color_18">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -935,7 +917,7 @@ QLabel{
      </widget>
     </item>
     <item row="7" column="5">
-     <widget class="QPushButton" name="color_32">
+     <widget class="QPushButton" name="color_31">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -966,7 +948,7 @@ QLabel{
      </widget>
     </item>
     <item row="7" column="1">
-     <widget class="QPushButton" name="color_28">
+     <widget class="QPushButton" name="color_27">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -997,7 +979,7 @@ QLabel{
      </widget>
     </item>
     <item row="5" column="4">
-     <widget class="QPushButton" name="color_21">
+     <widget class="QPushButton" name="color_20">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -1027,45 +1009,8 @@ QLabel{
       </property>
      </widget>
     </item>
-    <item row="8" column="4" colspan="2">
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="minimumSize">
-       <size>
-        <width>75</width>
-        <height>30</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 170, 0);</string>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1" colspan="3">
-     <widget class="QPushButton" name="pushButton">
-      <property name="minimumSize">
-       <size>
-        <width>75</width>
-        <height>30</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(75, 75, 75);</string>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="5">
-     <widget class="QPushButton" name="color_2">
+     <widget class="QPushButton" name="color_1">
       <property name="minimumSize">
        <size>
         <width>40</width>
@@ -1095,20 +1040,8 @@ QLabel{
       </property>
      </widget>
     </item>
-    <item row="1" column="4">
-     <widget class="QPushButton" name="color_1">
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
+    <item row="1" column="1" colspan="4">
+     <widget class="QLabel" name="label">
       <property name="sizeIncrement">
        <size>
         <width>0</width>
@@ -1117,26 +1050,32 @@ QLabel{
       </property>
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
+        <pointsize>19</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Overrides color</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1" colspan="5">
+     <widget class="QPushButton" name="The_default">
+      <property name="minimumSize">
+       <size>
+        <width>75</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">QPushButton:hover{
-	
-	background-color:rgb(175, 175, 175);
-}</string>
+       <string notr="true"/>
       </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="checkable">
-       <bool>false</bool>
-      </property>
-      <property name="autoRepeat">
-       <bool>false</bool>
-      </property>
-      <property name="autoExclusive">
-       <bool>false</bool>
+       <string>The default</string>
       </property>
      </widget>
     </item>
